@@ -1,5 +1,5 @@
 {
-  "name": "xrpl.js",
+  "name": "xrpl-hooks",
   "private": true,
   "scripts": {
     "test": "lerna run test --stream",
@@ -74,5 +74,25 @@
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=7.0.0 < 8.0.0"
-  }
+  },
+  "description": "This is a fork of [https://github.com/XRPLF/xrpl.js](xrpl.js) with a (probably) more up to date _definitions.json_ for new amendments such as Hooks.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardAH/xrpl.js.git"
+  },
+  "keywords": [
+    "xrpl",
+    "hooks"
+  ],
+  "author": "Ripple",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardAH/xrpl.js/issues"
+  },
+  "homepage": "https://github.com/RichardAH/xrpl.js#readme"
 }
