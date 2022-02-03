@@ -5,7 +5,7 @@ This is a fork of [https://github.com/XRPLF/xrpl.js](xrpl.js) with a (probably) 
 
 A JavaScript/TypeScript library for interacting with the XRP Ledger
 
-[![NPM](https://nodei.co/npm/xrpl.png)](https://www.npmjs.org/package/xrpl-hooks)
+[![NPM](https://nodei.co/npm/xrpl-hooks.png)](https://www.npmjs.org/package/xrpl-hooks)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/xrpl)
 
 This is the recommended library for integrating a JavaScript/TypeScript app with the XRP Ledger, especially if you intend to use advanced functionality such as IOUs, payment paths, the decentralized exchange, account settings, payment channels, escrows, multi-signing, and more.
