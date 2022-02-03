@@ -11,7 +11,7 @@ import {
   encodeForSigning,
   encodeForMultisigning,
   encode,
-} from 'ripple-binary-codec'
+} from 'xrpl-binary-codec'
 import {
   deriveAddress,
   deriveKeypair,

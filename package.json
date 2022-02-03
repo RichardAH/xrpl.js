@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "ripple-address-codec": "file:packages/ripple-address-codec",
-    "ripple-binary-codec": "file:packages/ripple-binary-codec",
+    "xrpl-binary-codec": "file:packages/xrpl-binary-codec",
     "ripple-keypairs": "file:packages/ripple-keypairs",
     "xrpl": "file:packages/xrpl"
   },

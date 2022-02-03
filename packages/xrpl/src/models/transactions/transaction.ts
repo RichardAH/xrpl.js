@@ -2,7 +2,7 @@
 /* eslint-disable max-lines-per-function -- need to work with a lot of Tx verifications */
 
 import _ from 'lodash'
-import { encode, decode } from 'ripple-binary-codec'
+import { encode, decode } from 'xrpl-binary-codec'
 
 import { ValidationError } from '../../errors'
 import { setTransactionFlagsToNumber } from '../utils/flags'

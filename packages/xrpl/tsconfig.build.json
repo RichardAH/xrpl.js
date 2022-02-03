@@ -9,7 +9,7 @@
       "path": "../ripple-address-codec/tsconfig.json"
     },
     {
-      "path": "../ripple-binary-codec/tsconfig.json"
+      "path": "../xrpl-binary-codec/tsconfig.json"
     },
     {
       "path": "../ripple-keypairs/tsconfig.json"

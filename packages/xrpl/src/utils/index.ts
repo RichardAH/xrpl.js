@@ -14,7 +14,7 @@ import {
   isValidXAddress,
   xAddressToClassicAddress,
 } from 'ripple-address-codec'
-import * as rbc from 'ripple-binary-codec'
+import * as rbc from 'xrpl-binary-codec'
 
 import { LedgerEntry } from '../models/ledger'
 import { Response } from '../models/methods'

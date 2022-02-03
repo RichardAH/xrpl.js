@@ -54,7 +54,7 @@ function getDefaultConfiguration() {
       },
       extensions: ['.js', '.json'],
       // We don't want to webpack any of the local dependencies:
-      // ripple-address-codec, ripple-binary-codec, ripple-keypairs, which are
+      // ripple-address-codec, xrpl-binary-codec, ripple-keypairs, which are
       // symlinked together via lerna
       symlinks: false,
       fallback: {
