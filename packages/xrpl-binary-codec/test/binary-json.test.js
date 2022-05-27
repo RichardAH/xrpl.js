@@ -9,7 +9,7 @@ function truncateForDisplay(longStr) {
   return `${longStr.slice(0, 10)} ... ${longStr.slice(-10)}`
 }
 
-describe('xrpl-binary-codec', function () {
+describe('ripple-binary-codec', function () {
   function makeSuite(name, entries) {
     describe(name, function () {
       entries.forEach((t, testN) => {

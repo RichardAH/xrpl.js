@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "ripple-address-codec": "file:packages/ripple-address-codec",
-    "xrpl-binary-codec": "file:packages/xrpl-binary-codec",
     "ripple-keypairs": "file:packages/ripple-keypairs",
-    "xrpl": "file:packages/xrpl"
+    "xrpl": "file:packages/xrpl",
+    "xrpl-binary-codec": "^1.4.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.21",
@@ -76,7 +76,7 @@
     "npm": ">=7.0.0 < 8.0.0"
   },
   "description": "This is a fork of [https://github.com/XRPLF/xrpl.js](xrpl.js) with a (probably) more up to date _definitions.json_ for new amendments such as Hooks.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "directories": {
     "doc": "docs"

@@ -164,7 +164,7 @@ describe('Invalid X-Address behavior', () => {
   })
 })
 
-describe('xrpl-binary-codec x-address test', function () {
+describe('ripple-binary-codec x-address test', function () {
   function makeSuite(name, entries) {
     describe(name, function () {
       entries.forEach((t, testN) => {
